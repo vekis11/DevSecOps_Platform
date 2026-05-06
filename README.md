@@ -98,7 +98,7 @@ After editing `.env.local`, **restart** the dev server so changes apply.
 ## 4 · Start the development server
 
 ```powershell
-npm run dev
+npx next start -p 3001
 ```
 
 This project pins the dev port to **3000** (see `package.json` → `"dev": "next dev -p 3000"`).
@@ -126,7 +126,7 @@ You should land on the dashboard (via redirect from `/`).
 
 | Issue | What to try |
 |-------|----------------|
-| **Port 3000 in use** | Stop the other app, or run `npx next dev -p 3001` and open that port instead *(note: overrides default script)* |
+| **Port 3001 in use** | Stop the other app, or run `npx next dev -p 3001` and open that port instead *(note: overrides default script)* |
 | **`npm` not found** | Reinstall Node and ensure “Add to PATH” was selected |
 | **Module errors after `git pull`** | Run `npm install` again |
 | **Env not picked up** | File must be named `.env.local` in the project root; restart `npm run dev` |
@@ -158,6 +158,6 @@ You should land on the dashboard (via redirect from `/`).
 
 <div align="center">
 
-**You’re done when** `npm run dev` is running and **http://localhost:3000** loads in your browser.
+**You’re done when** `npx next start -p 3001` is running and **http://localhost:3001** loads in your browser.
 
 </div>
