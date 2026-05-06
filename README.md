@@ -19,7 +19,7 @@
 | 2 | Clone or open this repository |
 | 3 | Install packages (`npm install`) |
 | 4 | *(Optional)* Create `.env.local` from `env.example` |
-| 5 | Start the dev server (`npm run dev`) |
+| 5 | Start the dev server (`npx next start -p 3001`) |
 | 6 | Open **http://localhost:3000** in your browser |
 
 The app redirects `/` → `/dashboard`. Some routes use cookie-based module gating; you can manage that from **Billing** in the UI if you hit a lock screen.
