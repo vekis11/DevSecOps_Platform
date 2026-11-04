@@ -8,7 +8,6 @@ import {
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const { pathname } = request.nextUrl;
   const modules = request.cookies.get(COOKIE_MODULES)?.value;
   const enforce = request.cookies.get(COOKIE_ENFORCE)?.value;
 
