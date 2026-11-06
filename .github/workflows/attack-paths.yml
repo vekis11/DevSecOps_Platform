@@ -3,8 +3,8 @@ name: Attack paths
 
 on:
   pull_request:
+  
   push:
-    branches: [main, master]
 
 permissions:
   contents: read
@@ -17,5 +17,5 @@ jobs:
       - name: Checkout this repository
         uses: actions/checkout@v4
 
-      - name: Analyze attack paths
-        uses: vekis11/attack-path-elimination_POC@main
+      - name: Attack path elimination
+        uses: TemTech-Solutions/attack-path-elimination@v1.0.2
