@@ -18,4 +18,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Attack path elimination
-        uses: TemTech-Solutions/attack-path-elimination@a6ca39f6eb151706361a8b5368600ca0564be63e
+        uses: TemTech-Solutions/attack-path-elimination@2283495c574a55ed272f1d959df372137a5deb2f
