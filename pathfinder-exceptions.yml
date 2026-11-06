@@ -1,0 +1,11 @@
+exceptions:
+  - file: src/components/billing/billing-client.tsx
+    rule: APP05
+    line: 28
+    reason: security test case for this POC
+    
+exceptions:
+  - file: src/lib/server/jira-live.ts
+    rule: APP05
+    line: 26
+    reason: security test case for this POC - PASTA · Stage 5 · Weakness analysis
