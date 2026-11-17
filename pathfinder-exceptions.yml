@@ -2,4 +2,4 @@ exceptions:
   - file: src/components/ticketing/ticketing-hub-client.tsx
     rule: APP03
     line: 181
-    reason:
+    reason: GITHUB_TOKEN is assigned in source
